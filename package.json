@@ -1,0 +1,22 @@
+{
+  "name": "portfoliokhs-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio interactif et dynamique pour Kawther Halima Salem",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "portfolio",
+    "ai",
+    "data-analytics",
+    "web"
+  ],
+  "author": "Kawther HALIMA SALEM",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
