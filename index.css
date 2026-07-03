@@ -1802,3 +1802,53 @@ body.js-enabled .reveal-item.revealed {
         height: calc(90vh - 120px);
     }
 }
+
+/* ==========================================================================
+   LANGUAGE SELECTOR
+   ========================================================================== */
+.lang-selector {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 0.2rem 0.3rem;
+    border-radius: 100px;
+    margin-right: 0.8rem;
+}
+
+.lang-btn {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 0.72rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.15rem 0.45rem;
+    border-radius: 100px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.lang-btn:hover {
+    color: var(--text-light);
+}
+
+.lang-btn.active {
+    background: var(--gradient-primary);
+    color: var(--text-light);
+    box-shadow: 0 0 10px rgba(0, 242, 254, 0.4);
+}
+
+.lang-divider {
+    color: rgba(255, 255, 255, 0.15);
+    font-size: 0.7rem;
+    font-weight: 400;
+    user-select: none;
+}
+
+@media (max-width: 992px) {
+    .lang-selector {
+        margin-right: 0.5rem;
+    }
+}
+

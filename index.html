@@ -28,17 +28,22 @@
             </a>
             <nav class="nav-menu">
                 <ul>
-                    <li><a href="#hero" class="nav-link active">Accueil</a></li>
-                    <li><a href="#about" class="nav-link">À Propos</a></li>
-                    <li><a href="#experience" class="nav-link">Expérience</a></li>
-                    <li><a href="#skills" class="nav-link">Compétences</a></li>
-                    <li><a href="#projects" class="nav-link">Projets</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="#hero" class="nav-link active" data-fr="Accueil" data-en="Home">Accueil</a></li>
+                    <li><a href="#about" class="nav-link" data-fr="À Propos" data-en="About">À Propos</a></li>
+                    <li><a href="#experience" class="nav-link" data-fr="Parcours" data-en="Journey">Parcours</a></li>
+                    <li><a href="#skills" class="nav-link" data-fr="Compétences" data-en="Skills">Compétences</a></li>
+                    <li><a href="#projects" class="nav-link" data-fr="Projets" data-en="Projects">Projets</a></li>
+                    <li><a href="#contact" class="nav-link" data-fr="Contact" data-en="Contact">Contact</a></li>
                 </ul>
             </nav>
+            <div class="lang-selector">
+                <button class="lang-btn active" data-lang-switch="fr">FR</button>
+                <span class="lang-divider">/</span>
+                <button class="lang-btn" data-lang-switch="en">EN</button>
+            </div>
             <div class="header-cta">
                 <button class="btn btn-outline btn-sm open-modal-btn" data-modal="modal-cv">
-                    <span>Voir le CV</span>
+                    <span data-fr="Voir le CV" data-en="View CV">Voir le CV</span>
                     <svg class="btn-icon" viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
                 </button>
             </div>
@@ -53,30 +58,30 @@
         <section id="hero" class="hero-section">
             <div class="container hero-grid">
                 <div class="hero-content">
-                    <div class="badge-glow reveal-item">
+                    <div class="badge-glow reveal-item" data-fr="<span class='badge-dot'></span> Recherche Alternance Septembre 2026" data-en="<span class='badge-dot'></span> Seeking Internship Sept 2026">
                         <span class="badge-dot"></span>
                         Recherche Alternance Septembre 2026
                     </div>
                     <h1 class="hero-title reveal-item">
                         Halima Salem <span class="text-gradient">Kawther</span>
                     </h1>
-                    <h2 class="hero-subtitle reveal-item">
+                    <h2 class="hero-subtitle reveal-item" data-fr="Ingénieure Systèmes d'Information & Étudiante Master 1 IA" data-en="Information Systems Engineer & M1 AI Student">
                         Ingénieure Systèmes d'Information & Étudiante Master 1 IA
                     </h2>
-                    <p class="hero-description reveal-item">
+                    <p class="hero-description reveal-item" data-fr="Spécialisée en Data Science, Machine Learning et Vision par Ordinateur. Je conçois des solutions intelligentes et des analyses de données complexes pour façonner le monde de demain." data-en="Specialized in Data Science, Machine Learning, and Computer Vision. I design intelligent solutions and complex data analyses to shape the world of tomorrow.">
                         Spécialisée en Data Science, Machine Learning et Vision par Ordinateur. Je conçois des solutions intelligentes et des analyses de données complexes pour façonner le monde de demain.
                     </p>
                     <div class="hero-actions reveal-item">
                         <a href="#contact" class="btn btn-primary">
-                            <span>Me Contacter</span>
+                            <span data-fr="Me Contacter" data-en="Contact Me">Me Contacter</span>
                             <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
                         </a>
                         <button class="btn btn-secondary open-modal-btn" data-modal="modal-cv">
-                            <span>Voir le CV</span>
+                            <span data-fr="Voir le CV" data-en="View CV">Voir le CV</span>
                             <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
                         </button>
                         <a href="cv_Kawther_HALIMA_SALEM.pdf" download class="btn btn-secondary">
-                            <span>Télécharger PDF</span>
+                            <span data-fr="Télécharger PDF" data-en="Download PDF">Télécharger PDF</span>
                             <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M19 12v7H5v-7H3v7c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-7h-2zm-6 .67l2.59-2.58L17 11.5l-5 5-5-5 1.41-1.41L11 12.67V3h2z"/></svg>
                         </a>
                     </div>
@@ -92,8 +97,8 @@
                             <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
                         </div>
                         <div class="stat-info">
-                            <span class="stat-num">Double</span>
-                            <span class="stat-label">Cursus Ingé/Master</span>
+                            <span class="stat-num" data-fr="Double" data-en="Dual">Double</span>
+                            <span class="stat-label" data-fr="Cursus Ingé/Master" data-en="IS & AI Curriculum">Cursus Ingé/Master</span>
                         </div>
                     </div>
                     <div class="stat-card stat-card-right float-animation-delayed">
@@ -102,7 +107,7 @@
                         </div>
                         <div class="stat-info">
                             <span class="stat-num">5+</span>
-                            <span class="stat-label">Projets IA Récents</span>
+                            <span class="stat-label" data-fr="Projets IA Récents" data-en="Recent AI Projects">Projets IA Récents</span>
                         </div>
                     </div>
                 </div>
@@ -120,32 +125,32 @@
         <section id="about" class="about-section section-padding">
             <div class="container">
                 <div class="section-title-wrap">
-                    <h2 class="section-title">À Propos De <span class="text-gradient">Moi</span></h2>
-                    <p class="section-subtitle">Mon profil et mes aspirations professionnelles</p>
+                    <h2 class="section-title" data-fr="À Propos De <span class='text-gradient'>Moi</span>" data-en="About <span class='text-gradient'>Me</span>">À Propos De <span class="text-gradient">Moi</span></h2>
+                    <p class="section-subtitle" data-fr="Mon profil et mes aspirations professionnelles" data-en="My profile and career aspirations">Mon profil et mes aspirations professionnelles</p>
                 </div>
                 <div class="about-grid">
                     <div class="about-text-card glass-card reveal-item">
-                        <h3 class="card-title">Qui suis-je ?</h3>
-                        <p class="paragraph">
+                        <h3 class="card-title" data-fr="Qui suis-je ?" data-en="Who am I?">Qui suis-je ?</h3>
+                        <p class="paragraph" data-fr="Ingénieure diplômée en <strong>Systèmes d'Information</strong> et actuellement étudiante en <strong>Master 1 Intelligence Artificielle</strong> à l'Université d'Avignon, je me positionne à l'intersection de la structuration informatique et de l'intelligence algorithmique." data-en="Graduate engineer in <strong>Information Systems</strong> and currently a <strong>Master 1 Artificial Intelligence</strong> student at Avignon University, I position myself at the intersection of IT structuring and algorithmic intelligence.">
                             Ingénieure diplômée en <strong>Systèmes d'Information</strong> et actuellement étudiante en <strong>Master 1 Intelligence Artificielle</strong> à l'Université d'Avignon, je me positionne à l'intersection de la structuration informatique et de l'intelligence algorithmique.
                         </p>
-                        <p class="paragraph">
+                        <p class="paragraph" data-fr="Mon parcours académique rigoureux m'a permis d'acquérir de solides compétences en <strong>Data Science</strong>, <strong>Machine Learning</strong>, <strong>Vision par ordinateur (Computer Vision)</strong> et en développement de solutions d'IA appliquées. J'aime résoudre des problèmes complexes, optimiser des processus métiers et faire parler les données." data-en="My rigorous academic background has enabled me to acquire strong skills in <strong>Data Science</strong>, <strong>Machine Learning</strong>, <strong>Computer Vision</strong>, and the development of applied AI solutions. I enjoy solving complex problems, optimizing business processes, and making data talk.">
                             Mon parcours académique rigoureux m'a permis d'acquérir de solides compétences en <strong>Data Science</strong>, <strong>Machine Learning</strong>, <strong>Vision par ordinateur (Computer Vision)</strong> et en développement de solutions d'IA appliquées. J'aime résoudre des problèmes complexes, optimiser des processus métiers et faire parler les données.
                         </p>
                         <div class="aspiration-quote">
                             <svg class="quote-icon" viewBox="0 0 24 24" width="30" height="30"><path fill="currentColor" d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/></svg>
-                            <p>Je suis activement à la recherche d'une opportunité en <strong>alternance (IA & Data Analytics)</strong> à partir de <strong>septembre 2026</strong> pour apporter mon expertise technique et continuer à innover.</p>
+                            <p data-fr="Je suis activement à la recherche d'une opportunité en <strong>alternance (IA & Data Analytics)</strong> à partir de <strong>septembre 2026</strong> pour apporter mon expertise technique et continuer à innover." data-en="I am actively seeking an apprenticeship opportunity in <strong>AI & Data Analytics</strong> starting from <strong>September 2026</strong> to bring my technical expertise and continue to innovate.">Je suis activement à la recherche d'une opportunité en <strong>alternance (IA & Data Analytics)</strong> à partir de <strong>septembre 2026</strong> pour apporter mon expertise technique et continuer à innover.</p>
                         </div>
                     </div>
                     <div class="about-details-card glass-card reveal-item">
-                        <h3 class="card-title">Informations Clés</h3>
+                        <h3 class="card-title" data-fr="Informations Clés" data-en="Key Information">Informations Clés</h3>
                         <ul class="info-list">
                             <li>
                                 <span class="info-icon bg-blue-glow">
                                     <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
                                 </span>
                                 <div class="info-text">
-                                    <span class="info-label">Localisation</span>
+                                    <span class="info-label" data-fr="Localisation" data-en="Location">Localisation</span>
                                     <span class="info-value">Avignon, France</span>
                                 </div>
                             </li>
@@ -163,7 +168,7 @@
                                     <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
                                 </span>
                                 <div class="info-text">
-                                    <span class="info-label">Téléphone</span>
+                                    <span class="info-label" data-fr="Téléphone" data-en="Phone">Téléphone</span>
                                     <span class="info-value"><a href="tel:+33758494838" class="hover-link">+33 7 58 49 48 38</a></span>
                                 </div>
                             </li>
@@ -178,11 +183,11 @@
                             </li>
                         </ul>
                         <div class="langues-wrap">
-                            <h4 class="sub-title">Langues</h4>
+                            <h4 class="sub-title" data-fr="Langues" data-en="Languages">Langues</h4>
                             <div class="langue-badges">
-                                <span class="langue-badge">Arabe <span class="langue-level">Maternelle</span></span>
-                                <span class="langue-badge">Français <span class="langue-level">Bilingue</span></span>
-                                <span class="langue-badge">Anglais <span class="langue-level">Professionnel</span></span>
+                                <span class="langue-badge" data-fr="Arabe <span class='langue-level'>Maternelle</span>" data-en="Arabic <span class='langue-level'>Native</span>">Arabe <span class="langue-level">Maternelle</span></span>
+                                <span class="langue-badge" data-fr="Français <span class='langue-level'>Bilingue</span>" data-en="French <span class='langue-level'>Bilingual</span>">Français <span class="langue-level">Bilingue</span></span>
+                                <span class="langue-badge" data-fr="Anglais <span class='langue-level'>Professionnel</span>" data-en="English <span class='langue-level'>Professional</span>">Anglais <span class="langue-level">Professionnel</span></span>
                             </div>
                         </div>
                     </div>
@@ -194,12 +199,12 @@
         <section id="experience" class="experience-section section-padding">
             <div class="container">
                 <div class="section-title-wrap">
-                    <h2 class="section-title">Parcours & <span class="text-gradient">Formations</span></h2>
-                    <p class="section-subtitle">Mes expériences professionnelles et mon cursus universitaire</p>
+                    <h2 class="section-title" data-fr="Parcours & <span class='text-gradient'>Formations</span>" data-en="Journey & <span class='text-gradient'>Education</span>">Parcours & <span class="text-gradient">Formations</span></h2>
+                    <p class="section-subtitle" data-fr="Mes expériences professionnelles et mon cursus universitaire" data-en="My professional experiences and academic background">Mes expériences professionnelles et mon cursus universitaire</p>
                 </div>
                 <div class="timeline-tabs">
-                    <button class="tab-btn active" data-tab="experiences-tab">Expériences Professionnelles</button>
-                    <button class="tab-btn" data-tab="formations-tab">Formations Académiques</button>
+                    <button class="tab-btn active" data-tab="experiences-tab" data-fr="Expériences Professionnelles" data-en="Professional Experience">Expériences Professionnelles</button>
+                    <button class="tab-btn" data-tab="formations-tab" data-fr="Formations Académiques" data-en="Academic Education">Formations Académiques</button>
                 </div>
 
                 <!-- Experiences Timeline Content -->
@@ -207,63 +212,63 @@
                     <div class="timeline">
                         <div class="timeline-item reveal-item">
                             <div class="timeline-dot"></div>
-                            <div class="timeline-date">2024 (1 mois)</div>
+                            <div class="timeline-date" data-fr="2024 (1 mois)" data-en="2024 (1 month)">2024 (1 mois)</div>
                             <div class="timeline-content glass-card">
-                                <span class="timeline-company">École pour les Enfants Handicapés Auditifs</span>
-                                <h3 class="timeline-role">Stage de Fin d'Études – Collecte de données gestuelles</h3>
-                                <p class="timeline-desc">Création et annotation complète d'un dataset de langue des signes. Entraînement et optimisation d'un modèle de reconnaissance gestuelle pour un déploiement en temps réel.</p>
+                                <span class="timeline-company" data-fr="École pour les Enfants Handicapés Auditifs" data-en="School for Deaf and Hard of Hearing Children">École pour les Enfants Handicapés Auditifs</span>
+                                <h3 class="timeline-role" data-fr="Stage de Fin d'Études – Collecte de données gestuelles" data-en="Graduation Internship – Gesture Data Collection">Stage de Fin d'Études – Collecte de données gestuelles</h3>
+                                <p class="timeline-desc" data-fr="Création et annotation complète d'un dataset de langue des signes. Entraînement et optimisation d'un modèle de reconnaissance gestuelle pour un déploiement en temps réel." data-en="Creation and complete annotation of a sign language dataset. Training and optimization of a gesture recognition model for real-time deployment.">Création et annotation complète d'un dataset de langue des signes. Entraînement et optimisation d'un modèle de reconnaissance gestuelle pour un déploiement en temps réel.</p>
                                 <div class="timeline-tags">
                                     <span class="tech-tag">Python</span>
                                     <span class="tech-tag">Computer Vision</span>
-                                    <span class="tech-tag">Data Annotation</span>
-                                    <span class="tech-tag">AI Dataset</span>
+                                    <span class="tech-tag" data-fr="Collecte Données" data-en="Data Collection">Collecte Données</span>
+                                    <span class="tech-tag" data-fr="Dataset IA" data-en="AI Dataset">Dataset IA</span>
                                 </div>
                             </div>
                         </div>
                         
                         <div class="timeline-item reveal-item">
                             <div class="timeline-dot"></div>
-                            <div class="timeline-date">2022 - 2023 (2 semaines)</div>
+                            <div class="timeline-date" data-fr="2022 - 2023 (2 semaines)" data-en="2022 - 2023 (2 weeks)">2022 - 2023 (2 semaines)</div>
                             <div class="timeline-content glass-card">
                                 <span class="timeline-company">HYPROC SHIPPING Company</span>
-                                <h3 class="timeline-role">Stage d'Insertion – Développement Logiciel</h3>
-                                <p class="timeline-desc">Conception rigoureuse (UML, Merise) et développement en méthodologie Scrum d'une plateforme web interne dédiée à la gestion administrative des candidatures.</p>
+                                <h3 class="timeline-role" data-fr="Stage d'Insertion – Développement Logiciel" data-en="Integration Internship – Software Development">Stage d'Insertion – Développement Logiciel</h3>
+                                <p class="timeline-desc" data-fr="Conception rigoureuse (UML, Merise) et développement en méthodologie Scrum d'une plateforme web interne dédiée à la gestion administrative des candidatures." data-en="Rigorous design (UML, Merise) and development using Scrum methodology of an internal web platform dedicated to application management.">Conception rigoureuse (UML, Merise) et développement en méthodologie Scrum d'une plateforme web interne dédiée à la gestion administrative des candidatures.</p>
                                 <div class="timeline-tags">
-                                    <span class="tech-tag">Web Dev</span>
+                                    <span class="tech-tag" data-fr="Dev Web" data-en="Web Dev">Dev Web</span>
                                     <span class="tech-tag">UML</span>
                                     <span class="tech-tag">Merise</span>
                                     <span class="tech-tag">Scrum</span>
-                                    <span class="tech-tag">Admin Tool</span>
+                                    <span class="tech-tag" data-fr="Outil Admin" data-en="Admin Tool">Outil Admin</span>
                                 </div>
                             </div>
                         </div>
 
                         <div class="timeline-item reveal-item">
                             <div class="timeline-dot"></div>
-                            <div class="timeline-date">2022 (1 semaine)</div>
+                            <div class="timeline-date" data-fr="2022 (1 semaine)" data-en="2022 (1 week)">2022 (1 semaine)</div>
                             <div class="timeline-content glass-card">
-                                <span class="timeline-company">Centre de Développement des Satellites (CDS)</span>
-                                <h3 class="timeline-role">Stage d'Imprégnation – Infrastructures Datacenter</h3>
-                                <p class="timeline-desc">Découverte pratique et configuration des systèmes de virtualisation, de stockage de données, de gestion des réseaux et des politiques de sécurité.</p>
+                                <span class="timeline-company" data-fr="Centre de Développement des Satellites (CDS)" data-en="Satellite Development Center (CDS)">Centre de Développement des Satellites (CDS)</span>
+                                <h3 class="timeline-role" data-fr="Stage d'Imprégnation – Infrastructures Datacenter" data-en="Discovery Internship – Datacenter Infrastructures">Stage d'Imprégnation – Infrastructures Datacenter</h3>
+                                <p class="timeline-desc" data-fr="Découverte pratique et configuration des systèmes de virtualisation, de stockage de données, de gestion des réseaux et des politiques de sécurité." data-en="Hands-on discovery and configuration of virtualization systems, data storage, network management, and security policies.">Découverte pratique et configuration des systèmes de virtualisation, de stockage de données, de gestion des réseaux et des politiques de sécurité.</p>
                                 <div class="timeline-tags">
                                     <span class="tech-tag">Datacenter</span>
-                                    <span class="tech-tag">Virtualisation</span>
-                                    <span class="tech-tag">Réseaux</span>
-                                    <span class="tech-tag">Sécurité</span>
+                                    <span class="tech-tag" data-fr="Virtualisation" data-en="Virtualization">Virtualisation</span>
+                                    <span class="tech-tag" data-fr="Réseaux" data-en="Networks">Réseaux</span>
+                                    <span class="tech-tag" data-fr="Sécurité" data-en="Security">Sécurité</span>
                                 </div>
                             </div>
                         </div>
 
                         <div class="timeline-item reveal-item">
                             <div class="timeline-dot"></div>
-                            <div class="timeline-date">2021 (1 semaine)</div>
+                            <div class="timeline-date" data-fr="2021 (1 semaine)" data-en="2021 (1 week)">2021 (1 semaine)</div>
                             <div class="timeline-content glass-card">
                                 <span class="timeline-company">SORFERT ALGERIE SPA</span>
-                                <h3 class="timeline-role">Stage d'Imprégnation – Systèmes et Réseaux</h3>
-                                <p class="timeline-desc">Immersion dans l'administration des réseaux informatiques et de l'infrastructure de serveurs au sein d'une grande entreprise industrielle.</p>
+                                <h3 class="timeline-role" data-fr="Stage d'Imprégnation – Systèmes et Réseaux" data-en="Discovery Internship – Systems & Networks">Stage d'Imprégnation – Systèmes et Réseaux</h3>
+                                <p class="timeline-desc" data-fr="Immersion dans l'administration des réseaux informatiques et de l'infrastructure de serveurs au sein d'une grande entreprise industrielle." data-en="Immersion in network administration and server infrastructure within a large industrial company.">Immersion dans l'administration des réseaux informatiques et de l'infrastructure de serveurs au sein d'une grande entreprise industrielle.</p>
                                 <div class="timeline-tags">
-                                    <span class="tech-tag">Systèmes</span>
-                                    <span class="tech-tag">Administration Réseaux</span>
+                                    <span class="tech-tag" data-fr="Systèmes" data-en="Systems">Systèmes</span>
+                                    <span class="tech-tag" data-fr="Admin Réseaux" data-en="Network Admin">Admin Réseaux</span>
                                     <span class="tech-tag">Infrastructure</span>
                                 </div>
                             </div>
@@ -278,9 +283,9 @@
                             <div class="timeline-dot"></div>
                             <div class="timeline-date">2025 - 2026</div>
                             <div class="timeline-content glass-card">
-                                <span class="timeline-company">Université d'Avignon, France</span>
-                                <h3 class="timeline-role">Master 1 – Intelligence Artificielle</h3>
-                                <p class="timeline-desc">Spécialisation avancée. Matières clés : Apprentissage Automatique (Machine Learning), Approches Neuronales & Deep Learning, Traitement Automatique du Langage Naturel (NLP), Vision par Ordinateur, Modèles Stochastiques et Apprentissage Symbolique.</p>
+                                <span class="timeline-company" data-fr="Université d'Avignon, France" data-en="Avignon University, France">Université d'Avignon, France</span>
+                                <h3 class="timeline-role" data-fr="Master 1 – Intelligence Artificielle" data-en="Master 1 – Artificial Intelligence">Master 1 – Intelligence Artificielle</h3>
+                                <p class="timeline-desc" data-fr="Spécialisation avancée. Matières clés : Apprentissage Automatique (Machine Learning), Approches Neuronales & Deep Learning, Traitement Automatique du Langage Naturel (NLP), Vision par Ordinateur, Modèles Stochastiques et Apprentissage Symbolique." data-en="Advanced specialization. Key subjects: Machine Learning, Neural Approaches & Deep Learning, Natural Language Processing (NLP), Computer Vision, Stochastic Models, and Symbolic Learning.">Spécialisation avancée. Matières clés : Apprentissage Automatique (Machine Learning), Approches Neuronales & Deep Learning, Traitement Automatique du Langage Naturel (NLP), Vision par Ordinateur, Modèles Stochastiques et Apprentissage Symbolique.</p>
                             </div>
                         </div>
 
@@ -288,9 +293,9 @@
                             <div class="timeline-dot"></div>
                             <div class="timeline-date">2019 - 2024 / 2025</div>
                             <div class="timeline-content glass-card">
-                                <span class="timeline-company">École Nationale Polytechnique d'Oran-Maurice Audin (ENPO), Algérie</span>
-                                <h3 class="timeline-role">Diplôme d'Ingénieur d'État & Master en Systèmes d'Information (En Parallèle)</h3>
-                                <p class="timeline-desc">Ingénierie et Management des Systèmes d'Information. Diplômée avec la <strong>Mention Excellent</strong>. Classée 136/2000 au prestigieux Concours National d'Entrée aux Grandes Écoles d'Ingénieurs.</p>
+                                <span class="timeline-company" data-fr="École Nationale Polytechnique d'Oran-Maurice Audin (ENPO), Algérie" data-en="National Polytechnic School of Oran-Maurice Audin (ENPO), Algeria">École Nationale Polytechnique d'Oran-Maurice Audin (ENPO), Algérie</span>
+                                <h3 class="timeline-role" data-fr="Diplôme d'Ingénieur d'État & Master en Systèmes d'Information (En Parallèle)" data-en="State Engineer Diploma & Master's in Information Systems (Parallel Cursus)">Diplôme d'Ingénieur d'État & Master en Systèmes d'Information (En Parallèle)</h3>
+                                <p class="timeline-desc" data-fr="Ingénierie et Management des Systèmes d'Information. Diplômée avec la <strong>Mention Excellent</strong>. Classée 136/2000 au prestigieux Concours National d'Entrée aux Grandes Écoles d'Ingénieurs." data-en="Information Systems Engineering and Management. Graduated with <strong>Highest Honors</strong>. Ranked 136/2000 in the prestigious National Entrance Exam for Engineering Schools.">Ingénierie et Management des Systèmes d'Information. Diplômée avec la <strong>Mention Excellent</strong>. Classée 136/2000 au prestigieux Concours National d'Entrée aux Grandes Écoles d'Ingénieurs.</p>
                             </div>
                         </div>
                     </div>
@@ -302,8 +307,8 @@
         <section id="skills" class="skills-section section-padding">
             <div class="container">
                 <div class="section-title-wrap">
-                    <h2 class="section-title">Compétences <span class="text-gradient">Techniques</span></h2>
-                    <p class="section-subtitle">Les outils et technologies que je maîtrise</p>
+                    <h2 class="section-title" data-fr="Compétences <span class='text-gradient'>Techniques</span>" data-en="Technical <span class='text-gradient'>Skills</span>">Compétences <span class="text-gradient">Techniques</span></h2>
+                    <p class="section-subtitle" data-fr="Les outils et technologies que je maîtrise" data-en="The tools and technologies I master">Les outils et technologies que je maîtrise</p>
                 </div>
                 <div class="skills-grid">
                     <!-- ML/IA -->
@@ -311,7 +316,7 @@
                         <div class="skills-icon-wrap bg-blue-glow">
                             <svg viewBox="0 0 24 24" width="28" height="28"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/></svg>
                         </div>
-                        <h3 class="skills-category-title">Machine Learning & IA</h3>
+                        <h3 class="skills-category-title" data-fr="Machine Learning & IA" data-en="Machine Learning & AI">Machine Learning & IA</h3>
                         <div class="skill-bars">
                             <div class="skill-bar-item">
                                 <div class="skill-info"><span>TensorFlow / PyTorch / Keras</span><span class="skill-pct">85%</span></div>
@@ -337,7 +342,7 @@
                         <div class="skills-icon-wrap bg-purple-glow">
                             <svg viewBox="0 0 24 24" width="28" height="28"><path fill="currentColor" d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
                         </div>
-                        <h3 class="skills-category-title">Langages de Programmation</h3>
+                        <h3 class="skills-category-title" data-fr="Langages de Programmation" data-en="Programming Languages">Langages de Programmation</h3>
                         <div class="skill-bars">
                             <div class="skill-bar-item">
                                 <div class="skill-info"><span>Python</span><span class="skill-pct">95%</span></div>
@@ -363,7 +368,7 @@
                         <div class="skills-icon-wrap bg-cyan-glow">
                             <svg viewBox="0 0 24 24" width="28" height="28"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
                         </div>
-                        <h3 class="skills-category-title">Bases de Données & Web</h3>
+                        <h3 class="skills-category-title" data-fr="Bases de Données & Web" data-en="Databases & Web">Bases de Données & Web</h3>
                         <div class="skill-bars">
                             <div class="skill-bar-item">
                                 <div class="skill-info"><span>PostgreSQL / Oracle</span><span class="skill-pct">85%</span></div>
@@ -378,7 +383,7 @@
                                 <div class="skill-progress-bg"><div class="skill-progress-bar" style="width: 75%"></div></div>
                             </div>
                             <div class="skill-bar-item">
-                                <div class="skill-info"><span>Visualisation (Power BI)</span><span class="skill-pct">80%</span></div>
+                                <div class="skill-info"><span data-fr="Visualisation (Power BI)" data-en="Visualization (Power BI)">Visualisation (Power BI)</span><span class="skill-pct">80%</span></div>
                                 <div class="skill-progress-bg"><div class="skill-progress-bar" style="width: 80%"></div></div>
                             </div>
                         </div>
@@ -389,19 +394,19 @@
                         <div class="skills-icon-wrap bg-violet-glow">
                             <svg viewBox="0 0 24 24" width="28" height="28"><path fill="currentColor" d="M12.07 6.007L16 9.938l-3.93 3.931-3.931-3.931 3.931-3.931zm0-4L3 11.077l9.07 9.07 9.07-9.07-9.07-9.07z"/></svg>
                         </div>
-                        <h3 class="skills-category-title">Méthodologies & Outils</h3>
+                        <h3 class="skills-category-title" data-fr="Méthodologies & Outils" data-en="Methodologies & Tools">Méthodologies & Outils</h3>
                         <div class="skill-bars">
                             <div class="skill-bar-item">
-                                <div class="skill-info"><span>Modélisation (UML, Merise, BPMN)</span><span class="skill-pct">90%</span></div>
+                                <div class="skill-info"><span data-fr="Modélisation (UML, Merise, BPMN)" data-en="Modeling (UML, Merise, BPMN)">Modélisation (UML, Merise, BPMN)</span><span class="skill-pct">90%</span></div>
                                 <div class="skill-progress-bg"><div class="skill-progress-bar" style="width: 90%"></div></div>
                             </div>
                             <div class="skill-bar-item">
-                                <div class="skill-info"><span>Méthodes Agiles (Scrum)</span><span class="skill-pct">85%</span></div>
+                                <div class="skill-info"><span data-fr="Méthodes Agiles (Scrum)" data-en="Agile Methodologies (Scrum)">Méthodes Agiles (Scrum)</span><span class="skill-pct">85%</span></div>
                                 <div class="skill-progress-bg"><div class="skill-progress-bar" style="width: 85%"></div></div>
                             </div>
                             <div class="skill-bar-item">
                                 <div class="skill-info"><span>Git / GitHub</span><span class="skill-pct">88%</span></div>
-                                <div class="skill-progress-bg"><div class="skill-progress-bar" style="width: 88%"></div></div>
+                                <div class="skill-progress-bg"><div class="skill-progress-bar" style="style: 88%"></div></div>
                             </div>
                             <div class="skill-bar-item">
                                 <div class="skill-info"><span>Linux / Jupyter Notebooks</span><span class="skill-pct">90%</span></div>
@@ -417,15 +422,15 @@
         <section id="projects" class="projects-section section-padding">
             <div class="container">
                 <div class="section-title-wrap">
-                    <h2 class="section-title">Mes <span class="text-gradient">Projets</span> Réalisés</h2>
-                    <p class="section-subtitle">Une sélection de mes travaux académiques et personnels</p>
+                    <h2 class="section-title" data-fr="Mes <span class='text-gradient'>Projets</span> Réalisés" data-en="My Completed <span class='text-gradient'>Projects</span>">Mes <span class="text-gradient">Projets</span> Réalisés</h2>
+                    <p class="section-subtitle" data-fr="Une sélection de mes travaux académiques et personnels" data-en="A selection of my academic and personal works">Une sélection de mes travaux académiques et personnels</p>
                 </div>
                 
                 <div class="project-filters">
-                    <button class="filter-btn active" data-filter="all">Tout</button>
-                    <button class="filter-btn" data-filter="ia">IA & Vision</button>
-                    <button class="filter-btn" data-filter="nlp">NLP & Robotique</button>
-                    <button class="filter-btn" data-filter="web">Web & Automation</button>
+                    <button class="filter-btn active" data-filter="all" data-fr="Tout" data-en="All">Tout</button>
+                    <button class="filter-btn" data-filter="ia" data-fr="IA & Vision" data-en="AI & Vision">IA & Vision</button>
+                    <button class="filter-btn" data-filter="nlp" data-fr="NLP & Robotique" data-en="NLP & Robotics">NLP & Robotique</button>
+                    <button class="filter-btn" data-filter="web" data-fr="Web & Automation" data-en="Web & Automation">Web & Automation</button>
                 </div>
 
                 <div class="projects-grid">
@@ -434,21 +439,21 @@
                         <div class="project-img-wrapper">
                             <img src="assets/project_pepper.png" alt="Robot Pepper" class="project-img">
                             <div class="project-overlay">
-                                <span class="badge-tech-primary">Robotique / RASA</span>
+                                <span class="badge-tech-primary" data-fr="Robotique / RASA" data-en="Robotics / RASA">Robotique / RASA</span>
                             </div>
                         </div>
                         <div class="project-info">
-                            <span class="project-date">En cours</span>
-                            <h3 class="project-title">Robot Pepper - Assistant Conversationnel</h3>
-                            <p class="project-short-desc">Développement d'un système d'interaction vocale intelligent pour accompagner les personnes âgées en EHPAD.</p>
+                            <span class="project-date" data-fr="En cours" data-en="Ongoing">En cours</span>
+                            <h3 class="project-title" data-fr="Robot Pepper - Assistant Conversationnel" data-en="Robot Pepper - Conversational Assistant">Robot Pepper - Assistant Conversationnel</h3>
+                            <p class="project-short-desc" data-fr="Développement d'un système d'interaction vocale intelligent pour accompagner les personnes âgées en EHPAD." data-en="Development of an intelligent vocal interaction system to assist elderly people in care homes.">Développement d'un système d'interaction vocale intelligent pour accompagner les personnes âgées en EHPAD.</p>
                             <div class="project-tags">
                                 <span class="project-tag">Python</span>
                                 <span class="project-tag">RASA</span>
                                 <span class="project-tag">APIs</span>
-                                <span class="project-tag">Robotique</span>
+                                <span class="project-tag" data-fr="Robotique" data-en="Robotics">Robotique</span>
                             </div>
                             <button class="btn btn-outline btn-sm open-modal-btn" data-modal="modal-pepper">
-                                <span>Voir Détails</span>
+                                <span data-fr="Voir Détails" data-en="View Details">Voir Détails</span>
                             </button>
                         </div>
                     </div>
@@ -463,8 +468,8 @@
                         </div>
                         <div class="project-info">
                             <span class="project-date">2024</span>
-                            <h3 class="project-title">SignifyAI - Traduction Langue des Signes</h3>
-                            <p class="project-short-desc">Reconnaissance en temps réel de la langue des signes (expressions faciales, corps et mains) avec Mediapipe Holistic, LSTM et GPT-Neo.</p>
+                            <h3 class="project-title" data-fr="SignifyAI - Traduction Langue des Signes" data-en="SignifyAI - Sign Language Translation">SignifyAI - Traduction Langue des Signes</h3>
+                            <p class="project-short-desc" data-fr="Reconnaissance en temps réel de la langue des signes (expressions faciales, corps et mains) avec Mediapipe Holistic, LSTM et GPT-Neo." data-en="Real-time sign language recognition (facial expressions, body, and hands) using Mediapipe Holistic, LSTM, and GPT-Neo.">Reconnaissance en temps réel de la langue des signes (expressions faciales, corps et mains) avec Mediapipe Holistic, LSTM et GPT-Neo.</p>
                             <div class="project-tags">
                                 <span class="project-tag">TensorFlow</span>
                                 <span class="project-tag">Transformers</span>
@@ -472,7 +477,7 @@
                                 <span class="project-tag">GPT-Neo</span>
                             </div>
                             <button class="btn btn-outline btn-sm open-modal-btn" data-modal="modal-signify">
-                                <span>Voir Détails</span>
+                                <span data-fr="Voir Détails" data-en="View Details">Voir Détails</span>
                             </button>
                         </div>
                     </div>
@@ -487,8 +492,8 @@
                         </div>
                         <div class="project-info">
                             <span class="project-date">2023</span>
-                            <h3 class="project-title">ALPAGA - Détection d'Objets Vision</h3>
-                            <p class="project-short-desc">Expérimentation et fine-tuning de l'algorithme d'état de l'art YOLOv8 avec évaluation rigoureuse de performances.</p>
+                            <h3 class="project-title" data-fr="ALPAGA - Détection d'Objets Vision" data-en="ALPAGA - Vision Object Detection">ALPAGA - Détection d'Objets Vision</h3>
+                            <p class="project-short-desc" data-fr="Expérimentation et fine-tuning de l'algorithme d'état de l'art YOLOv8 avec évaluation rigoureuse de performances." data-en="Experimentation and fine-tuning of the state-of-the-art YOLOv8 algorithm with rigorous performance evaluation.">Expérimentation et fine-tuning de l'algorithme d'état de l'art YOLOv8 avec évaluation rigoureuse de performances.</p>
                             <div class="project-tags">
                                 <span class="project-tag">Python</span>
                                 <span class="project-tag">YOLOv8</span>
@@ -496,7 +501,7 @@
                                 <span class="project-tag">Deep Learning</span>
                             </div>
                             <button class="btn btn-outline btn-sm open-modal-btn" data-modal="modal-alpaga">
-                                <span>Voir Détails</span>
+                                <span data-fr="Voir Détails" data-en="View Details">Voir Détails</span>
                             </button>
                         </div>
                     </div>
@@ -511,8 +516,8 @@
                         </div>
                         <div class="project-info">
                             <span class="project-date">2022 - 2023</span>
-                            <h3 class="project-title">Stage Space - Plateforme de Stages</h3>
-                            <p class="project-short-desc">Application web fullstack de gestion administrative des stages avec tableau de bord et base de données.</p>
+                            <h3 class="project-title" data-fr="Stage Space - Plateforme de Stages" data-en="Stage Space - Internship Platform">Stage Space - Plateforme de Stages</h3>
+                            <p class="project-short-desc" data-fr="Application web web de gestion des stages avec tableau de bord interactif et base de données." data-en="Fullstack web application for internship management with interactive dashboard and database.">Application web fullstack de gestion administrative des stages avec tableau de bord et base de données.</p>
                             <div class="project-tags">
                                 <span class="project-tag">HTML</span>
                                 <span class="project-tag">CSS</span>
@@ -521,7 +526,7 @@
                                 <span class="project-tag">MongoDB</span>
                             </div>
                             <button class="btn btn-outline btn-sm open-modal-btn" data-modal="modal-stagespace">
-                                <span>Voir Détails</span>
+                                <span data-fr="Voir Détails" data-en="View Details">Voir Détails</span>
                             </button>
                         </div>
                     </div>
@@ -531,19 +536,19 @@
                         <div class="project-img-wrapper">
                             <img src="assets/project_email.png" alt="Email Automation" class="project-img">
                             <div class="project-overlay">
-                                <span class="badge-tech-primary">Python / Automation</span>
+                                <span class="badge-tech-primary" data-fr="Python / Automatisation" data-en="Python / Automation">Python / Automation</span>
                             </div>
                         </div>
                         <div class="project-info">
                             <span class="project-date">2024</span>
-                            <h3 class="project-title">Automatisation d'envois d'e-mails</h3>
-                            <p class="project-short-desc">Développement d’un système automatisé d’envoi d’e-mails avec génération dynamique de contenu et réduction des tâches répétitives.</p>
+                            <h3 class="project-title" data-fr="Automatisation d'envois d'e-mails" data-en="Email Sending Automation">Automatisation d'envois d'e-mails</h3>
+                            <p class="project-short-desc" data-fr="Développement d’un système automatisé d’envoi d’e-mails avec génération dynamique de contenu et réduction des tâches répétitives." data-en="Development of an automated email sending system with dynamic content generation and reduction of repetitive tasks.">Développement d’un système automatisé d’envoi d’e-mails avec génération dynamique de contenu et réduction des tâches répétitives.</p>
                             <div class="project-tags">
                                 <span class="project-tag">Python</span>
-                                <span class="project-tag">Automation</span>
+                                <span class="project-tag" data-fr="Automatisation" data-en="Automation">Automation</span>
                             </div>
                             <button class="btn btn-outline btn-sm open-modal-btn" data-modal="modal-email">
-                                <span>Voir Détails</span>
+                                <span data-fr="Voir Détails" data-en="View Details">Voir Détails</span>
                             </button>
                         </div>
                     </div>
@@ -555,39 +560,39 @@
         <section id="interests" class="interests-section section-padding">
             <div class="container">
                 <div class="section-title-wrap">
-                    <h2 class="section-title">Activités & <span class="text-gradient">Centres d'Intérêt</span></h2>
-                    <p class="section-subtitle">Ce qui m'anime en dehors des lignes de code</p>
+                    <h2 class="section-title" data-fr="Activités & <span class='text-gradient'>Centres d'Intérêt</span>" data-en="Activities & <span class='text-gradient'>Interests</span>">Activités & <span class="text-gradient">Centres d'Intérêt</span></h2>
+                    <p class="section-subtitle" data-fr="Ce qui m'anime en dehors des lignes de code" data-en="What drives me outside of coding">Ce qui m'anime en dehors des lignes de code</p>
                 </div>
                 <div class="interests-grid">
                     <div class="interest-card glass-card reveal-item">
                         <div class="interest-icon bg-blue">
                             <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm4.5-9h-9c-.83 0-1.5-.67-1.5-1.5S6.67 6 7.5 6h9c.83 0 1.5.67 1.5 1.5S17.33 11 16.5 11z"/></svg>
                         </div>
-                        <h3>BERRY - Club Informatique</h3>
-                        <p class="interest-time">2022 - 2024</p>
-                        <p>Membre active, contribution à des ateliers de design UI/UX, d'initiation à la cybersécurité et de développement d'applications mobiles.</p>
+                        <h3 data-fr="BERRY - Club Informatique" data-en="BERRY - IT Club">BERRY - Club Informatique</h3>
+                        <p class="interest-time" data-fr="2022 - 2024" data-en="2022 - 2024">2022 - 2024</p>
+                        <p data-fr="Membre active, contribution à des ateliers de design UI/UX, d'initiation à la cybersécurité et de développement d'applications mobiles." data-en="Active member, contribution to UI/UX design workshops, introduction to cybersecurity, and mobile application development.">Membre active, contribution à des ateliers de design UI/UX, d'initiation à la cybersécurité et de développement d'applications mobiles.</p>
                     </div>
 
                     <div class="interest-card glass-card reveal-item">
                         <div class="interest-icon bg-purple">
                             <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
                         </div>
-                        <h3>CREATIVUM - Club Culturel</h3>
-                        <p class="interest-time">2019 - 2020</p>
-                        <p>Organisation d'ateliers culturels, d'événements artistiques, et participation à des débats oratoires d'intérêt général.</p>
+                        <h3 data-fr="CREATIVUM - Club Culturel" data-en="CREATIVUM - Cultural Club">CREATIVUM - Club Culturel</h3>
+                        <p class="interest-time" data-fr="2019 - 2020" data-en="2019 - 2020">2019 - 2020</p>
+                        <p data-fr="Organisation d'ateliers culturels, d'événements artistiques, et participation à des débats oratoires d'intérêt général." data-en="Organization of cultural workshops, artistic events, and participation in public speaking debates of general interest.">Organisation d'ateliers culturels, d'événements artistiques, et participation à des débats oratoires d'intérêt général.</p>
                     </div>
 
                     <div class="interest-card glass-card reveal-item">
                         <div class="interest-icon bg-cyan">
                             <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93h2c0 2.76 2.24 5 5 5s5-2.24 5-5h2c0 4.08-3.05 7.44-7 7.93zM12 6c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4z"/></svg>
                         </div>
-                        <h3>Passions Personnelles</h3>
-                        <p class="interest-time">Au quotidien</p>
+                        <h3 data-fr="Passions Personnelles" data-en="Personal Passions">Passions Personnelles</h3>
+                        <p class="interest-time" data-fr="Au quotidien" data-en="Daily life">Au quotidien</p>
                         <ul class="personal-interests">
-                            <li><strong>Natation :</strong> Pratique sportive régulière pour la discipline et la concentration.</li>
-                            <li><strong>Cuisine & Gastronomie :</strong> Découverte des cultures à travers leurs traditions culinaires.</li>
-                            <li><strong>Mode & Stylisme :</strong> Fort intérêt pour l'esthétique visuelle et l'harmonie des designs.</li>
-                            <li><strong>Exploration :</strong> Passion pour les voyages et l'immersion multiculturelle.</li>
+                            <li data-fr="<strong>Natation :</strong> Pratique sportive régulière pour la discipline et la concentration." data-en="<strong>Swimming:</strong> Regular sport practice for discipline and concentration."><strong>Natation :</strong> Pratique sportive régulière pour la discipline et la concentration.</li>
+                            <li data-fr="<strong>Cuisine & Gastronomie :</strong> Découverte des cultures à travers leurs traditions culinaires." data-en="<strong>Cooking & Gastronomy:</strong> Discovering cultures through their culinary traditions."><strong>Cuisine & Gastronomie :</strong> Découverte des cultures à travers leurs traditions culinaires.</li>
+                            <li data-fr="<strong>Mode & Stylisme :</strong> Fort intérêt pour l'esthétique visuelle et l'harmonie des designs." data-en="<strong>Fashion & Design:</strong> Strong interest in visual aesthetics and design harmony."><strong>Mode & Stylisme :</strong> Fort intérêt pour l'esthétique visuelle et l'harmonie des designs.</li>
+                            <li data-fr="<strong>Exploration :</strong> Passion pour les voyages et l'immersion multiculturelle." data-en="<strong>Exploration:</strong> Passion for travel and multicultural immersion."><strong>Exploration :</strong> Passion pour les voyages et l'immersion multiculturelle.</li>
                         </ul>
                     </div>
                 </div>
@@ -598,13 +603,13 @@
         <section id="contact" class="contact-section section-padding">
             <div class="container">
                 <div class="section-title-wrap">
-                    <h2 class="section-title">Entrons En <span class="text-gradient">Contact</span></h2>
-                    <p class="section-subtitle">Une opportunité d'alternance ? Un projet ? Écrivez-moi !</p>
+                    <h2 class="section-title" data-fr="Entrons En <span class='text-gradient'>Contact</span>" data-en="Let's Get In <span class='text-gradient'>Touch</span>">Entrons En <span class="text-gradient">Contact</span></h2>
+                    <p class="section-subtitle" data-fr="Une opportunité d'alternance ? Un projet ? Écrivez-moi !" data-en="An apprenticeship opportunity? A project? Write to me!">Une opportunité d'alternance ? Un projet ? Écrivez-moi !</p>
                 </div>
                 <div class="contact-grid">
                     <div class="contact-info-card glass-card reveal-item">
-                        <h3>Coordonnées</h3>
-                        <p class="contact-lead">N'hésitez pas à me joindre directement par téléphone ou par email. Je répondrai dans les plus brefs délais.</p>
+                        <h3 data-fr="Coordonnées" data-en="Contact Info">Coordonnées</h3>
+                        <p class="contact-lead" data-fr="N'hésitez pas à me joindre directement par téléphone ou par email. Je répondrai dans les plus brefs délais." data-en="Feel free to reach out directly by phone or email. I will respond as soon as possible.">N'hésitez pas à me joindre directement par téléphone ou par email. Je répondrai dans les plus brefs délais.</p>
                         
                         <div class="contact-details">
                             <div class="contact-item">
@@ -621,7 +626,7 @@
                                     <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
                                 </span>
                                 <div class="contact-meta">
-                                    <span class="contact-label">Téléphone</span>
+                                    <span class="contact-label" data-fr="Téléphone" data-en="Phone">Téléphone</span>
                                     <a href="tel:+33758494838" class="contact-value hover-link">+33 7 58 49 48 38</a>
                                 </div>
                             </div>
@@ -630,14 +635,14 @@
                                     <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
                                 </span>
                                 <div class="contact-meta">
-                                    <span class="contact-label">Adresse</span>
-                                    <span class="contact-value">Avignon, France</span>
+                                    <span class="contact-label" data-fr="Adresse" data-en="Address">Adresse</span>
+                                    <span class="contact-value" data-fr="Avignon, France" data-en="Avignon, France">Avignon, France</span>
                                 </div>
                             </div>
                         </div>
 
                         <div class="contact-socials-wrap">
-                            <h4>Réseaux Professionnels</h4>
+                            <h4 data-fr="Réseaux Professionnels" data-en="Professional Networks">Réseaux Professionnels</h4>
                             <div class="social-links">
                                 <a href="https://linkedin.com/in/kawther-halima-salem" target="_blank" class="social-icon bg-violet-glow" aria-label="LinkedIn">
                                     <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
@@ -647,26 +652,26 @@
                     </div>
 
                     <div class="contact-form-card glass-card reveal-item">
-                        <h3>Envoyer un message</h3>
+                        <h3 data-fr="Envoyer un message" data-en="Send a Message">Envoyer un message</h3>
                         <form id="contact-form" class="contact-form">
                             <div class="form-group">
                                 <input type="text" id="name" name="name" class="form-input" placeholder=" " required>
-                                <label for="name" class="form-label">Votre nom complet</label>
+                                <label for="name" class="form-label" data-fr="Votre nom complet" data-en="Your full name">Votre nom complet</label>
                             </div>
                             <div class="form-group">
                                 <input type="email" id="email" name="email" class="form-input" placeholder=" " required>
-                                <label for="email" class="form-label">Votre adresse email</label>
+                                <label for="email" class="form-label" data-fr="Votre adresse email" data-en="Your email address">Votre adresse email</label>
                             </div>
                             <div class="form-group">
                                 <input type="text" id="subject" name="subject" class="form-input" placeholder=" " required>
-                                <label for="subject" class="form-label">Objet du message</label>
+                                <label for="subject" class="form-label" data-fr="Objet du message" data-en="Subject of the message">Objet du message</label>
                             </div>
                             <div class="form-group">
                                 <textarea id="message" name="message" class="form-input form-textarea" placeholder=" " required></textarea>
-                                <label for="message" class="form-label">Votre message</label>
+                                <label for="message" class="form-label" data-fr="Votre message" data-en="Your message">Votre message</label>
                             </div>
                             <button type="submit" class="btn btn-primary btn-full">
-                                <span>Envoyer le Message</span>
+                                <span data-fr="Envoyer le Message" data-en="Send Message">Envoyer le Message</span>
                                 <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
                             </button>
                             <div class="form-status-message" id="form-status"></div>
@@ -680,13 +685,13 @@
     <!-- Footer -->
     <footer class="main-footer">
         <div class="container footer-content">
-            <p class="copyright">&copy; 2026 Kawther HALIMA SALEM. Tous droits réservés.</p>
+            <p class="copyright" data-fr="&copy; 2026 Kawther HALIMA SALEM. Tous droits réservés." data-en="&copy; 2026 Kawther HALIMA SALEM. All rights reserved.">&copy; 2026 Kawther HALIMA SALEM. Tous droits réservés.</p>
             <div class="footer-bottom-links">
-                <a href="#hero" class="hover-link">Accueil</a>
+                <a href="#hero" class="hover-link" data-fr="Accueil" data-en="Home">Accueil</a>
                 <span class="separator">&bull;</span>
-                <a href="#about" class="hover-link">Profil</a>
+                <a href="#about" class="hover-link" data-fr="Profil" data-en="Profile">Profil</a>
                 <span class="separator">&bull;</span>
-                <a href="#projects" class="hover-link">Projets</a>
+                <a href="#projects" class="hover-link" data-fr="Projets" data-en="Projects">Projets</a>
             </div>
         </div>
     </footer>
@@ -701,27 +706,27 @@
                     <img src="assets/project_pepper.png" alt="Robot Pepper Detail">
                 </div>
                 <div class="modal-body-wrap">
-                    <span class="modal-badge">Robotique & Intelligence Artificielle</span>
-                    <h2 class="modal-title">Robot Pepper - Assistant conversationnel pour EHPAD</h2>
-                    <p class="modal-date-range">Projet en cours (2025 - Actuel)</p>
+                    <span class="modal-badge" data-fr="Robotique & Intelligence Artificielle" data-en="Robotics & Artificial Intelligence">Robotique & Intelligence Artificielle</span>
+                    <h2 class="modal-title" data-fr="Robot Pepper - Assistant conversationnel pour EHPAD" data-en="Robot Pepper - Conversational Assistant for Care Homes">Robot Pepper - Assistant conversationnel pour EHPAD</h2>
+                    <p class="modal-date-range" data-fr="Projet en cours (2025 - Actuel)" data-en="Ongoing Project (2025 - Present)">Projet en cours (2025 - Actuel)</p>
                     <div class="modal-description">
-                        <p><strong>Description du Projet :</strong> Ce projet vise à concevoir un système d'interaction vocale évolué sur le robot Pepper afin de briser l'isolement des personnes âgées résidant en établissement médico-social (EHPAD).</p>
-                        <p><strong>Détails Techniques :</strong></p>
+                        <p data-fr="<strong>Description du Projet :</strong> Ce projet vise à concevoir un système d'interaction vocale évolué sur le robot Pepper afin de briser l'isolement des personnes âgées résidant en établissement médico-social (EHPAD)." data-en="<strong>Project Description:</strong> This project aims to design an advanced voice interaction system on the Pepper robot to break the isolation of elderly residents in nursing homes (EHPAD)."><strong>Description du Projet :</strong> Ce projet vise à concevoir un système d'interaction vocale évolué sur le robot Pepper afin de briser l'isolement des personnes âgées résidant en établissement médico-social (EHPAD).</p>
+                        <p><strong data-fr="Détails Techniques :" data-en="Technical Details:">Détails Techniques :</strong></p>
                         <ul>
-                            <li><strong>RASA Framework :</strong> Implémentation d'une gestion intelligente du dialogue, capable de gérer des conversations non linéaires et de comprendre l'intention de l'utilisateur.</li>
-                            <li><strong>APIs & Connecteurs :</strong> Intégration de services tiers pour la météo, les actualités et les rappels d'événements.</li>
-                            <li><strong>Choregraphe & Robotique :</strong> Synchronisation des animations corporelles (mouvements des bras, tête) avec la voix pour rendre l'interaction plus naturelle et empathique.</li>
-                            <li><strong>Python Backend :</strong> Développement des actions personnalisées RASA et de la logique métier.</li>
+                            <li data-fr="<strong>RASA Framework :</strong> Implémentation d'une gestion intelligente du dialogue, capable de gérer des conversations non linéaires et de comprendre l'intention de l'utilisateur." data-en="<strong>RASA Framework:</strong> Implementation of intelligent dialogue management, capable of handling non-linear conversations and understanding user intent."><strong>RASA Framework :</strong> Implémentation d'une gestion intelligente du dialogue, capable de gérer des conversations non linéaires et de comprendre l'intention de l'utilisateur.</li>
+                            <li data-fr="<strong>APIs & Connecteurs :</strong> Intégration de services tiers pour la météo, les actualités et les rappels d'événements." data-en="<strong>APIs & Connectors:</strong> Integration of third-party services for weather, news, and event reminders."><strong>APIs & Connecteurs :</strong> Intégration de services tiers pour la météo, les actualités et les rappels d'événements.</li>
+                            <li data-fr="<strong>Choregraphe & Robotique :</strong> Synchronisation des animations corporelles (mouvements des bras, tête) avec la voix pour rendre l'interaction plus naturelle et empathique." data-en="<strong>Choregraphe & Robotics:</strong> Synchronization of body animations (arm, head movements) with the voice to make interaction more natural and empathetic."><strong>Choregraphe & Robotique :</strong> Synchronisation des animations corporelles (mouvements des bras, tête) avec la voix pour rendre l'interaction plus naturelle et empathique.</li>
+                            <li data-fr="<strong>Python Backend :</strong> Développement des actions personnalisées RASA et de la logique métier." data-en="<strong>Python Backend:</strong> Development of custom RASA actions and business logic."><strong>Python Backend :</strong> Développement des actions personnalisées RASA et de la logique métier.</li>
                         </ul>
-                        <p><strong>Impact Social :</strong> Stimulation cognitive des résidents à travers des jeux de mémoire, divertissement (musiques, histoires) et assistance quotidienne.</p>
+                        <p data-fr="<strong>Impact Social :</strong> Stimulation cognitive des résidents à travers des jeux de mémoire, divertissement (musiques, histoires) et assistance quotidienne." data-en="<strong>Social Impact:</strong> Cognitive stimulation of residents through memory games, entertainment (music, stories), and daily assistance."><strong>Impact Social :</strong> Stimulation cognitive des résidents à travers des jeux de mémoire, divertissement (musiques, histoires) et assistance quotidienne.</p>
                     </div>
                     <div class="modal-tech-stack">
-                        <h4>Technologies utilisées :</h4>
+                        <h4 data-fr="Technologies utilisées :" data-en="Technologies used:">Technologies utilisées :</h4>
                         <div class="modal-tags">
                             <span>Python</span>
                             <span>RASA</span>
                             <span>APIs Rest</span>
-                            <span>Robotique (Pepper)</span>
+                            <span data-fr="Robotique (Pepper)" data-en="Robotics (Pepper)">Robotique (Pepper)</span>
                             <span>Choregraphe</span>
                         </div>
                     </div>
@@ -739,21 +744,21 @@
                     <img src="assets/project_signify.png" alt="SignifyAI Detail">
                 </div>
                 <div class="modal-body-wrap">
-                    <span class="modal-badge">Projet Innovant (Mention Excellent)</span>
-                    <h2 class="modal-title">SignifyAI - Reconnaissance de la langue des signes</h2>
-                    <p class="modal-date-range">Année 2024</p>
+                    <span class="modal-badge" data-fr="Projet Innovant (Mention Excellent)" data-en="Innovative Project (Highest Honors)">Projet Innovant (Mention Excellent)</span>
+                    <h2 class="modal-title" data-fr="SignifyAI - Reconnaissance de la langue des signes" data-en="SignifyAI - Sign Language Recognition">SignifyAI - Reconnaissance de la langue des signes</h2>
+                    <p class="modal-date-range" data-fr="Année 2024" data-en="Year 2024">Année 2024</p>
                     <div class="modal-description">
-                        <p><strong>Description du Projet :</strong> Développement d'une solution de pointe permettant de capturer, reconnaître et traduire en temps réel les gestes de la langue des signes (expressions faciales, le corps et les mains) afin de faciliter la communication.</p>
-                        <p><strong>Détails Techniques :</strong></p>
+                        <p data-fr="<strong>Description du Projet :</strong> Développement d'une solution de pointe permettant de capturer, reconnaître et traduire en temps réel les gestes de la langue des signes (expressions faciales, le corps et les mains) afin de faciliter la communication." data-en="<strong>Project Description:</strong> Development of a cutting-edge solution to capture, recognize, and translate sign language gestures (facial expressions, body, and hands) in real time to facilitate communication."><strong>Description du Projet :</strong> Développement d'une solution de pointe permettant de capturer, reconnaître et traduire en temps réel les gestes de la langue des signes (expressions faciales, le corps et les mains) afin de faciliter la communication.</p>
+                        <p><strong data-fr="Détails Techniques :" data-en="Technical Details:">Détails Techniques :</strong></p>
                         <ul>
-                            <li><strong>Captation holistique :</strong> Utilisation de <strong>Mediapipe Holistic</strong> pour suivre avec une précision extrême les expressions faciales, les mouvements du corps et des mains de manière simultanée via une simple webcam.</li>
-                            <li><strong>Modèles Récurrents (LSTM) :</strong> Entraînement de réseaux de neurones récurrents bidirectionnels pour capturer la dynamique temporelle des gestes et mouvements corporels séquentiels.</li>
-                            <li><strong>Fine-tuning GPT-Neo :</strong> Intégration d'un modèle de langage GPT-Neo affiné pour corriger la structure sémantique des phrases traduites et générer un français fluide et naturel.</li>
+                            <li data-fr="<strong>Captation holistique :</strong> Utilisation de <strong>Mediapipe Holistic</strong> pour suivre avec une précision extrême les expressions faciales, les mouvements du corps et des mains de manière simultanée via une simple webcam." data-en="<strong>Holistic Tracking:</strong> Use of <strong>Mediapipe Holistic</strong> to track facial expressions, body, and hand movements simultaneously with extreme precision via a simple webcam."><strong>Captation holistique :</strong> Utilisation de <strong>Mediapipe Holistic</strong> pour suivre avec une précision extrême les expressions faciales, les mouvements du corps et des mains de manière simultanée via une simple webcam.</li>
+                            <li data-fr="<strong>Modèles Récurrents (LSTM) :</strong> Entraînement de réseaux de neurones récurrents bidirectionnels pour capturer la dynamique temporelle des gestes et mouvements corporels séquentiels." data-en="<strong>Recurrent Models (LSTM):</strong> Training of bidirectional recurrent neural networks to capture the temporal dynamics of sequential gestures and body movements."><strong>Modèles Récurrents (LSTM) :</strong> Entraînement de réseaux de neurones récurrents bidirectionnels pour capturer la dynamique temporelle des gestes et mouvements corporels séquentiels.</li>
+                            <li data-fr="<strong>Fine-tuning GPT-Neo :</strong> Intégration d'un modèle de langage GPT-Neo affiné pour corriger la structure sémantique des phrases traduites et générer un français fluide et naturel." data-en="<strong>GPT-Neo Fine-tuning:</strong> Integration of a fine-tuned GPT-Neo language model to correct the semantic structure of translated sentences and generate smooth, natural output."><strong>Fine-tuning GPT-Neo :</strong> Intégration d'un modèle de langage GPT-Neo affiné pour corriger la structure sémantique des phrases traduites et générer un français fluide et naturel.</li>
                         </ul>
-                        <p><strong>Résultats :</strong> Label Projet Innovant avec Mention Excellent. Précision de reconnaissance supérieure à 92% en temps réel.</p>
+                        <p data-fr="<strong>Résultats :</strong> Label Projet Innovant avec Mention Excellent. Précision de reconnaissance supérieure à 92% en temps réel." data-en="<strong>Results:</strong> Innovative Project Label with Highest Honors. Gesture recognition accuracy above 92% in real time."><strong>Résultats :</strong> Label Projet Innovant avec Mention Excellent. Précision de reconnaissance supérieure à 92% en temps réel.</p>
                     </div>
                     <div class="modal-tech-stack">
-                        <h4>Technologies utilisées :</h4>
+                        <h4 data-fr="Technologies utilisées :" data-en="Technologies used:">Technologies utilisées :</h4>
                         <div class="modal-tags">
                             <span>Python</span>
                             <span>TensorFlow</span>
@@ -778,19 +783,19 @@
                 </div>
                 <div class="modal-body-wrap">
                     <span class="modal-badge">Computer Vision</span>
-                    <h2 class="modal-title">ALPAGA - Détection d'objets par vision par ordinateur</h2>
-                    <p class="modal-date-range">Année 2023</p>
+                    <h2 class="modal-title" data-fr="ALPAGA - Détection d'objets par vision" data-en="ALPAGA - Object Detection by Vision">ALPAGA - Détection d'objets par vision par ordinateur</h2>
+                    <p class="modal-date-range" data-fr="Année 2023" data-en="Year 2023">Année 2023</p>
                     <div class="modal-description">
-                        <p><strong>Description du Projet :</strong> Plateforme d'expérimentation et d'analyse comparative de modèles de détection d'objets en temps réel, centrée sur le framework YOLOv8.</p>
-                        <p><strong>Détails Techniques :</strong></p>
+                        <p data-fr="<strong>Description du Projet :</strong> Plateforme d'expérimentation et d'analyse comparative de modèles de détection d'objets en temps réel, centrée sur le framework YOLOv8." data-en="<strong>Project Description:</strong> Experimentation and comparative analysis platform for real-time object detection models, centered around the YOLOv8 framework."><strong>Description du Projet :</strong> Plateforme d'expérimentation et d'analyse comparative de modèles de détection d'objets en temps réel, centrée sur le framework YOLOv8.</p>
+                        <p><strong data-fr="Détails Techniques :" data-en="Technical Details:">Détails Techniques :</strong></p>
                         <ul>
-                            <li><strong>YOLOv8 Fine-tuning :</strong> Ajustement des hyperparamètres et entraînement personnalisé sur des datasets spécifiques pour optimiser la précision de localisation et de classification.</li>
-                            <li><strong>Évaluation des performances :</strong> Analyse approfondie des métriques clés de Computer Vision (mAP50, mAP50-95, courbes de précision-rappel, temps d'inférence en millisecondes).</li>
-                            <li><strong>Pipeline vidéo :</strong> Conception d'un script d'inférence en streaming vidéo temps réel avec affichage dynamique des bounding boxes et labels de confiance.</li>
+                            <li data-fr="<strong>YOLOv8 Fine-tuning :</strong> Ajustement des hyperparamètres et entraînement personnalisé sur des datasets spécifiques pour optimiser la précision de localisation et de classification." data-en="<strong>YOLOv8 Fine-tuning:</strong> Hyperparameter tuning and custom training on specific datasets to optimize localization and classification accuracy."><strong>YOLOv8 Fine-tuning :</strong> Ajustement des hyperparamètres et entraînement personnalisé sur des datasets spécifiques pour optimiser la précision de localisation et de classification.</li>
+                            <li data-fr="<strong>Évaluation des performances :</strong> Analyse approfondie des métriques clés de Computer Vision (mAP50, mAP50-95, courbes de précision-rappel, temps d'inférence en millisecondes)." data-en="<strong>Performance Evaluation:</strong> In-depth analysis of key Computer Vision metrics (mAP50, mAP50-95, precision-recall curves, inference time in milliseconds)."><strong>Évaluation des performances :</strong> Analyse approfondie des métriques clés de Computer Vision (mAP50, mAP50-95, courbes de précision-rappel, temps d'inférence en millisecondes).</li>
+                            <li data-fr="<strong>Pipeline vidéo :</strong> Conception d'un script d'inférence en streaming vidéo temps réel avec affichage dynamique des bounding boxes et labels de confiance." data-en="<strong>Video Pipeline:</strong> Design of a real-time streaming video inference script with dynamic display of bounding boxes and confidence labels."><strong>Pipeline vidéo :</strong> Conception d'un script d'inférence en streaming vidéo temps réel avec affichage dynamique des bounding boxes et labels de confiance.</li>
                         </ul>
                     </div>
                     <div class="modal-tech-stack">
-                        <h4>Technologies utilisées :</h4>
+                        <h4 data-fr="Technologies utilisées :" data-en="Technologies used:">Technologies utilisées :</h4>
                         <div class="modal-tags">
                             <span>Python</span>
                             <span>YOLOv8</span>
@@ -813,21 +818,21 @@
                     <img src="assets/project_stagespace.png" alt="Stage Space Detail">
                 </div>
                 <div class="modal-body-wrap">
-                    <span class="modal-badge">Développement Web</span>
-                    <h2 class="modal-title">Stage Space - Plateforme de gestion des stages</h2>
+                    <span class="modal-badge" data-fr="Développement Web" data-en="Web Development">Développement Web</span>
+                    <h2 class="modal-title" data-fr="Stage Space - Plateforme de gestion des stages" data-en="Stage Space - Internship Management Platform">Stage Space - Plateforme de gestion des stages</h2>
                     <p class="modal-date-range">2022 - 2023</p>
                     <div class="modal-description">
-                        <p><strong>Description du Projet :</strong> Conception et développement d'une application web de gestion des stages avec tableau de bord interactif et base de données.</p>
-                        <p><strong>Détails Techniques :</strong></p>
+                        <p data-fr="<strong>Description du Projet :</strong> Conception et développement d'une application web de gestion des stages avec tableau de bord interactif et base de données." data-en="<strong>Project Description:</strong> Design and development of a web application for internship management with an interactive dashboard and database."><strong>Description du Projet :</strong> Conception et développement d'une application web de gestion des stages avec tableau de bord interactif et base de données.</p>
+                        <p><strong data-fr="Détails Techniques :" data-en="Technical Details:">Détails Techniques :</strong></p>
                         <ul>
-                            <li><strong>Serveur :</strong> Utilisation de NodeJS pour concevoir et structurer le serveur de l'application.</li>
-                            <li><strong>Base de Données :</strong> Utilisation de MongoDB pour stocker de manière flexible les informations de stages et des utilisateurs.</li>
-                            <li><strong>Frontend :</strong> Interface de l'application dynamique et réceptive construite avec HTML, CSS et JavaScript.</li>
-                            <li><strong>Communication :</strong> Mise en place de requêtes HTTP pour échanger les données de manière fluide entre l'interface utilisateur et le serveur.</li>
+                            <li data-fr="<strong>Serveur :</strong> Utilisation de NodeJS pour concevoir et structurer le serveur de l'application." data-en="<strong>Server:</strong> Use of NodeJS to design and structure the application server."><strong>Serveur :</strong> Utilisation de NodeJS pour concevoir et structurer le serveur de l'application.</li>
+                            <li data-fr="<strong>Base de Données :</strong> Utilisation de MongoDB pour stocker de manière flexible les informations de stages et des utilisateurs." data-en="<strong>Database:</strong> Use of MongoDB to flexibly store internship and user information."><strong>Base de Données :</strong> Utilisation de MongoDB pour stocker de manière flexible les informations de stages et des utilisateurs.</li>
+                            <li data-fr="<strong>Frontend :</strong> Interface de l'application dynamique et réceptive construite avec HTML, CSS et JavaScript." data-en="<strong>Frontend:</strong> Dynamic and responsive application interface built with HTML, CSS, and JavaScript."><strong>Frontend :</strong> Interface de l'application dynamique et réceptive construite avec HTML, CSS et JavaScript.</li>
+                            <li data-fr="<strong>Communication :</strong> Mise en place de requêtes HTTP pour échanger les données de manière fluide entre l'interface utilisateur et le serveur." data-en="<strong>Communication:</strong> Setup of HTTP requests to seamlessly exchange data between the user interface and the server."><strong>Communication :</strong> Mise en place de requêtes HTTP pour échanger les données de manière fluide entre l'interface utilisateur et le serveur.</li>
                         </ul>
                     </div>
                     <div class="modal-tech-stack">
-                        <h4>Technologies utilisées :</h4>
+                        <h4 data-fr="Technologies utilisées :" data-en="Technologies used:">Technologies utilisées :</h4>
                         <div class="modal-tags">
                             <span>HTML</span>
                             <span>CSS</span>
@@ -850,25 +855,25 @@
                     <img src="assets/project_email.png" alt="Email Automation Detail">
                 </div>
                 <div class="modal-body-wrap">
-                    <span class="modal-badge">Automatisation & Scripting</span>
-                    <h2 class="modal-title">Automatisation d'envois d'e-mails</h2>
-                    <p class="modal-date-range">Année 2024</p>
+                    <span class="modal-badge" data-fr="Automatisation & Scripting" data-en="Automation & Scripting">Automatisation & Scripting</span>
+                    <h2 class="modal-title" data-fr="Automatisation d'envois d'e-mails" data-en="Email Sending Automation">Automatisation d'envois d'e-mails</h2>
+                    <p class="modal-date-range" data-fr="Année 2024" data-en="Year 2024">Année 2024</p>
                     <div class="modal-description">
-                        <p><strong>Description du Projet :</strong> Développement d'un système robuste d'automatisation d'envois d'e-mails pour optimiser les communications et réduire le temps consacré aux tâches répétitives de messagerie.</p>
-                        <p><strong>Détails Techniques :</strong></p>
+                        <p data-fr="<strong>Description du Projet :</strong> Développement d'un système robuste d'automatisation d'envois d'e-mails pour optimiser les communications et réduire le temps consacré aux tâches répétitives de messagerie." data-en="<strong>Project Description:</strong> Development of a robust email sending automation system to optimize communications and reduce time spent on repetitive messaging tasks."><strong>Description du Projet :</strong> Développement d'un système robuste d'automatisation d'envois d'e-mails pour optimiser les communications et réduire le temps consacré aux tâches répétitives de messagerie.</p>
+                        <p><strong data-fr="Détails Techniques :" data-en="Technical Details:">Détails Techniques :</strong></p>
                         <ul>
-                            <li><strong>Python Scripting :</strong> Développement de scripts Python autonomes utilisant les bibliothèques standards de messagerie pour se connecter de manière sécurisée aux serveurs SMTP.</li>
-                            <li><strong>Génération Dynamique de Contenu :</strong> Conception de modèles d'e-mails HTML personnalisables, injectant des données dynamiques (noms, dates, détails spécifiques à l'interlocuteur) lues depuis des fichiers structurés.</li>
-                            <li><strong>Optimisation des Tâches :</strong> Gain de temps majeur en transformant des processus manuels de messagerie en tâches programmées et automatisées.</li>
+                            <li data-fr="<strong>Python Scripting :</strong> Développement de scripts Python autonomes utilisant les bibliothèques standards de messagerie pour se connecter de manière sécurisée aux serveurs SMTP." data-en="<strong>Python Scripting:</strong> Development of autonomous Python scripts using standard mail libraries to securely connect to SMTP servers."><strong>Python Scripting :</strong> Développement de scripts Python autonomes utilisant les bibliothèques standards de messagerie pour se connecter de manière sécurisée aux serveurs SMTP.</li>
+                            <li data-fr="<strong>Génération Dynamique de Contenu :</strong> Conception de modèles d'e-mails HTML personnalisables, injectant des données dynamiques (noms, dates, détails spécifiques à l'interlocuteur) lues depuis des fichiers structurés." data-en="<strong>Dynamic Content Generation:</strong> Design of customizable HTML email templates, injecting dynamic data (names, dates, recipient-specific details) read from structured files."><strong>Génération Dynamique de Contenu :</strong> Conception de modèles d'e-mails HTML personnalisables, injectant des données dynamiques (noms, dates, détails spécifiques à l'interlocuteur) lues depuis des fichiers structurés.</li>
+                            <li data-fr="<strong>Optimisation des Tâches :</strong> Gain de temps majeur en transformant des processus manuels de messagerie en tâches programmées et automatisées." data-en="<strong>Task Optimization:</strong> Major time savings by transforming manual messaging processes into scheduled, automated tasks."><strong>Optimisation des Tâches :</strong> Gain de temps majeur en transformant des processus manuels de messagerie en tâches programmées et automatisées.</li>
                         </ul>
                     </div>
                     <div class="modal-tech-stack">
-                        <h4>Technologies utilisées :</h4>
+                        <h4 data-fr="Technologies utilisées :" data-en="Technologies used:">Technologies utilisées :</h4>
                         <div class="modal-tags">
                             <span>Python</span>
                             <span>SMTP / IMAP</span>
                             <span>HTML Templates</span>
-                            <span>Scripting</span>
+                            <span data-fr="Scripting" data-en="Scripting">Scripting</span>
                         </div>
                     </div>
                 </div>
@@ -881,9 +886,9 @@
         <div class="modal-container glass-card modal-cv-container">
             <button class="modal-close-btn" aria-label="Close modal">&times;</button>
             <div class="modal-cv-header">
-                <h3>Curriculum Vitae - Kawther HALIMA SALEM</h3>
+                <h3 data-fr="Curriculum Vitae - Kawther HALIMA SALEM" data-en="Curriculum Vitae - Kawther HALIMA SALEM">Curriculum Vitae - Kawther HALIMA SALEM</h3>
                 <a href="cv_Kawther_HALIMA_SALEM.pdf" download class="btn btn-primary btn-sm">
-                    <span>Télécharger le PDF</span>
+                    <span data-fr="Télécharger le PDF" data-en="Download PDF">Télécharger le PDF</span>
                     <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M19 12v7H5v-7H3v7c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-7h-2zm-6 .67l2.59-2.58L17 11.5l-5 5-5-5 1.41-1.41L11 12.67V3h2z"/></svg>
                 </a>
             </div>

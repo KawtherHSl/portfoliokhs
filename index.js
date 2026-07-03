@@ -3,6 +3,58 @@ function initializePortfolio() {
     document.body.classList.add('js-enabled');
     
     /* ==========================================================================
+       LANGUAGE SELECTOR & TRANSLATION
+       ========================================================================== */
+    const langBtns = document.querySelectorAll('[data-lang-switch]');
+    
+    function setLanguage(lang) {
+        document.body.setAttribute('data-lang', lang);
+        
+        // Toggle active button style
+        langBtns.forEach(btn => {
+            if (btn.getAttribute('data-lang-switch') === lang) {
+                btn.classList.add('active');
+            } else {
+                btn.classList.remove('active');
+            }
+        });
+        
+        // Translate all elements with data-fr and data-en
+        document.querySelectorAll('[data-fr]').forEach(elem => {
+            const translation = lang === 'en' ? elem.getAttribute('data-en') : elem.getAttribute('data-fr');
+            if (translation !== null) {
+                if (translation.includes('<') && translation.includes('>')) {
+                    elem.innerHTML = translation;
+                } else {
+                    elem.textContent = translation;
+                }
+            }
+        });
+        
+        // Translate all placeholders
+        document.querySelectorAll('[data-placeholder-fr]').forEach(elem => {
+            const placeholder = lang === 'en' ? elem.getAttribute('data-placeholder-en') : elem.getAttribute('data-placeholder-fr');
+            if (placeholder !== null) {
+                elem.setAttribute('placeholder', placeholder);
+            }
+        });
+        
+        localStorage.setItem('preferred-language', lang);
+    }
+    
+    // Add event listeners to switch language
+    langBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const lang = btn.getAttribute('data-lang-switch');
+            setLanguage(lang);
+        });
+    });
+    
+    // Load initial language preference
+    const savedLang = localStorage.getItem('preferred-language') || 'fr';
+    setLanguage(savedLang);
+    
+    /* ==========================================================================
        CUSTOM CURSOR
        ========================================================================== */
     const cursor = document.querySelector('.custom-cursor');
@@ -413,11 +465,12 @@ function initializePortfolio() {
             
             const submitBtn = contactForm.querySelector('button[type="submit"]');
             const originalBtnText = submitBtn.innerHTML;
+            const currentLang = localStorage.getItem('preferred-language') || 'fr';
             
             // UI Loading state
             submitBtn.disabled = true;
             submitBtn.innerHTML = `
-                <span>Envoi en cours...</span>
+                <span>${currentLang === 'en' ? 'Sending...' : 'Envoi en cours...'}</span>
                 <svg class="animate-spin" viewBox="0 0 24 24" width="18" height="18">
                     <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none" stroke-dasharray="32" stroke-linecap="round"></circle>
                 </svg>
@@ -434,11 +487,15 @@ function initializePortfolio() {
                 // Perform simple email match check just in case
                 if (name && email && subject && message) {
                     formStatus.className = 'form-status-message form-status-success';
-                    formStatus.textContent = 'Votre message a bien été envoyé ! Merci, je vous recontacterai rapidement.';
+                    formStatus.textContent = currentLang === 'en'
+                        ? 'Your message has been sent successfully! Thank you, I will contact you shortly.'
+                        : 'Votre message a bien été envoyé ! Merci, je vous recontacterai rapidement.';
                     contactForm.reset();
                 } else {
                     formStatus.className = 'form-status-message form-status-error';
-                    formStatus.textContent = 'Une erreur s\'est produite. Veuillez remplir tous les champs.';
+                    formStatus.textContent = currentLang === 'en'
+                        ? 'An error occurred. Please fill in all fields.'
+                        : 'Une erreur s\'est produite. Veuillez remplir tous les champs.';
                 }
                 
                 // Re-enable button
